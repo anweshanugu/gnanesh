@@ -1,9 +1,9 @@
 ---
  - hosts: webservers
    become: yes
-   task: 
+   tasks: 
      - include_tasks: myfile.yml 
-     - name: install webserver on ubuntu16
+     - name: install webservers on ubuntu
        apt:
         name: apache2
         state: present
