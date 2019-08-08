@@ -1,6 +1,6 @@
 ---
-  - name: create a file
-    file:
+- name: create a file
+  file:
       path: /home/ubuntu/anwesh.txt
       state: touch
       
